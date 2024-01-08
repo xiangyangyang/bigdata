@@ -1,0 +1,2 @@
+which feels cleaner in some respects, but similarly undermines the utility of the exception handling mechanism. Clients of ObjectPool instances that don't throw checked exceptions in practice still need to behave as if they do. Clients of ObjectPool instances that do throw checked exceptions lose any compile-time checking that exceptions of a given type are handled in some meaningful way
+hello word hello work word hello
